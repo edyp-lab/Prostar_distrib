@@ -1,0 +1,113 @@
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Messages d'avis :
+1: le package 'omXplore' a été compilé avec la version R 4.5.2 
+2: Dans fun(libname, pkgname) :
+  mzR has been built against a different Rcpp version (1.1.0)
+than is installed on your system (1.1.1). This might lead to errors
+when loading mzR. If you encounter such issues, please send a report,
+including the output of sessionInfo() to the Bioc support forum at 
+https://support.bioconductor.org/. For details see also
+https://github.com/sneumann/mzR/wiki/mzR-Rcpp-compiler-linker-issue.
+
+Attachement du package : 'MagellanNTK'
+
+Les objets suivants sont masqués depuis 'package:omXplore':
+
+    view_dataset, view_dataset_server, view_dataset_ui
+
+L'objet suivant est masqué depuis 'package:utils':
+
+    choose.dir
+
+
+Attachement du package : 'Prostar2'
+
+Les objets suivants sont masqués depuis 'package:MagellanNTK':
+
+    Add2History, addDatasets, download_dataset,
+    download_dataset_server, download_dataset_ui, export_dataset,
+    export_dataset_server, export_dataset_ui, history_dataset,
+    history_dataset_server, history_dataset_ui, infos_dataset,
+    infos_dataset_server, infos_dataset_ui, InitializeHistory,
+    keepDatasets, open_dataset, open_dataset_server, open_dataset_ui,
+    pkgs.require
+
+Les objets suivants sont masqués depuis 'package:omXplore':
+
+    Build_enriched_qdata, BuildColorStyles
+
+Message d'avis :
+remplacement de l'importation précédente 'shiny::dataTableOutput' par 'DT::dataTableOutput' lors du chargement de 'Prostar2' 
+Le chargement a nécessité le package : shiny
+Avis : le package 'shiny' a été compilé avec la version R 4.5.2
+
+Listening on http://127.0.0.1:3838
+harmonizing input:
+  removing 36 sampleMap rows not in names(experiments)
+harmonizing input:
+  removing 36 sampleMap rows not in names(experiments)
+harmonizing input:
+  removing 36 sampleMap rows not in names(experiments)
+harmonizing input:
+  removing 36 sampleMap rows not in names(experiments)
+harmonizing input:
+  removing 36 sampleMap rows not in names(experiments)
+harmonizing input:
+  removing 36 sampleMap rows not in names(experiments)
+harmonizing input:
+  removing 36 sampleMap rows not in names(experiments)
+harmonizing input:
+  removing 27 sampleMap rows not in names(experiments)
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+harmonizing input:
+  removing 18 sampleMap rows not in names(experiments)
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+harmonizing input:
+  removing 9 sampleMap rows not in names(experiments)
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+Avis dans `[<-`(`*tmp*`, j, value = dataset) :
+  implicit list embedding of S4 objects is deprecated
+[1] "omXplore : in observeEvent(remoteReset()"
+Avis dans matrix(value, n, p) :
+  data length [6] is not a sub-multiple or multiple of the number of columns [4]
+Input to asJSON(keep_vec_names=TRUE) is a named vector. In a future version of jsonlite, this option will not be supported, and named vectors will be translated into arrays instead of objects. If you want JSON object output, please use a named list instead. See ?toJSON.
+Input to asJSON(keep_vec_names=TRUE) is a named vector. In a future version of jsonlite, this option will not be supported, and named vectors will be translated into arrays instead of objects. If you want JSON object output, please use a named list instead. See ?toJSON.
+Avis dans matrix(value, n, p) :
+  data length [6] is not a sub-multiple or multiple of the number of columns [4]
+Procedure of Benjamini-Hochberg is used. pi0 is fixed to 1.
+Procedure of Benjamini-Hochberg is used. pi0 is fixed to 1.
+Procedure of Benjamini-Hochberg is used. pi0 is fixed to 1.
+^C

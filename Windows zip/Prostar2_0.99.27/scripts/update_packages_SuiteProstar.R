@@ -1,0 +1,5 @@
+remotes::install_github('edyp-lab/omXplore', force = TRUE)
+remotes::install_github('edyp-lab/MagellanNTK', force = TRUE)
+remotes::install_github('edyp-lab/DaparToolshedData', force = TRUE)
+remotes::install_github('edyp-lab/DaparToolshed', force = TRUE)
+remotes::install_github('edyp-lab/Prostar2', force = TRUE)

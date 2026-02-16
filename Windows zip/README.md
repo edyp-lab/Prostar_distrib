@@ -22,3 +22,15 @@ b.	BiocManager::install(version = « x.x.x »). Choisir la version de Bioconduct
 4.	Installer les packages pour Prostar2 : lancer les commandes contenues dans le script « scripts/update_packages_SuiteProstar.R »
 5.	Il faut ensuite modifier tous les fichiers .bat pour que les commandes pointent bien vers la bonne version de R. 
 Si on veut mettre à jour les packages de Prostar2 sans changer la version de R, il suffit de ne faire que le point 4 précédemment décrit.
+
+
+
+
+
+
+git lfs install --skip-smudge
+git lfs track large_file_needed
+git add .gitattributes large_file_needed
+git commit -m "whatever"
+git lfs uninstall
+git push
