@@ -354,17 +354,33 @@ display: none;
 
 <div id="prostar_distrib" class="section level1">
 <h1>Prostar_distrib</h1>
+<p>La distribution “zip” de Prostar consiste à compresser un répertoire
+dans lequel se trouvent les fichiers néessaires et une distribution de
+R.</p>
+<p>Il est possible de construire ce répertoire de deux manières
+différentes :</p>
+<ul>
+<li>en partant d’un répertoire vierge</li>
+<li>en modifiacnt un répertoire existant (changement de la version de R
+ou mise à jour des packages de Prostar sans changer la version de
+R)</li>
+</ul>
 <div id="construction-du-fichier-zip" class="section level2">
 <h2>Construction du fichier zip</h2>
 <p>Le zip est construit à partir d’un répertoire nommé Prostar2_xxx et
 dans lequel on aura installé une version de R ainsi que les packages
-nécessaires à Prostar. Ce répertoire doit contenir les éléments suivants
-: - Répertoire « logs » pour contenir les fichiers de logs générés par
-R. Utiles en cas de plantage pour identifier les erreurs - Répertoire «
-R-X.X.X » qui est la distribution de R - Répertoire « scripts » qui
-contient les scripts R permettant de lancer Prostar2 et ses dérivés -
-Des fichiers *.bat qui sont des commandes DOS et qui appellent les
-scripts R</p>
+nécessaires à Prostar.</p>
+<p>Ce répertoire doit contenir les éléments suivants :</p>
+<ul>
+<li>Répertoire « logs » pour contenir les fichiers de logs générés par
+R. Utiles en cas de plantage pour identifier les erreurs car on n’a pas
+accès à la console R</li>
+<li>Répertoire « R-X.X.X » qui est la distribution de R</li>
+<li>Répertoire « scripts » qui contient les scripts R permettant de
+lancer Prostar2 et ses dérivés</li>
+<li>Des fichiers *.bat qui sont des commandes DOS et qui appellent les
+scripts R</li>
+</ul>
 <p>Le plus simple est de partir d’une version déjà existante</p>
 </div>
 <div id="installation-avec-une-nouvelle-version-de-r" class="section level2">
